@@ -19,5 +19,10 @@ namespace DapperInClassExercise
             return _connection.Query<Department>("SELECT * FROM departments;");
 
         }
+
+        internal object GetAllProducts()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
