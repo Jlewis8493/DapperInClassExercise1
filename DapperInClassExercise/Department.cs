@@ -3,12 +3,12 @@ namespace DapperInClassExercise
 {
     public class Department
     {
-        public Department()
+        public Department() //constructor
         {
+
         }
 
-        public int DepartmentID { get; set; }
+        public int DepartmentID { get; set; } //properties
         public string Name { get; set; }
-
     }
 }

@@ -17,6 +17,7 @@ namespace DapperInClassExercise
         public IEnumerable<Department> GetAllDepartments()
         {
             return _connection.Query<Department>("SELECT * FROM departments;");
+
         }
     }
 }
